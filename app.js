@@ -20,6 +20,6 @@ function generateList(array) {
 
 let array = [1, 2, [1.1, 1.2, 1.3, ['1.1.1', '1.1.2']], 3];
 
-document.body.append(array);
+document.body.append(generateList(array));
 
-console.log(array);
+console.log(generateList(array));
